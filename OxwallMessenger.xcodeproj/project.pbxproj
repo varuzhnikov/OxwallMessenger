@@ -332,7 +332,7 @@
 		E9477F0217DF869600A16505 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Messenger/main.m; sourceTree = SOURCE_ROOT; };
 		E9477F0317DF869600A16505 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = Messenger/SearchViewController.h; sourceTree = SOURCE_ROOT; };
 		E9477F0417DF869600A16505 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = Messenger/SearchViewController.m; sourceTree = SOURCE_ROOT; };
-		E9477F0517DF869600A16505 /* Oxwall Messenger-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Oxwall Messenger-Info.plist"; path = "Messenger/Oxwall Messenger-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E9477F0517DF869600A16505 /* OxwallMessenger-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "OxwallMessenger-Info.plist"; path = "Messenger/OxwallMessenger-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E9477F0617DF869600A16505 /* Oxwall Messenger-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Oxwall Messenger-Prefix.pch"; path = "Messenger/Oxwall Messenger-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		E9477F1017DF872800A16505 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Messenger/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		E9477F1817DF889600A16505 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Messenger/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
@@ -629,7 +629,7 @@
 				E9477F1817DF889600A16505 /* InfoPlist.strings */,
 				E9477F1017DF872800A16505 /* Default-568h@2x.png */,
 				E9477F0217DF869600A16505 /* main.m */,
-				E9477F0517DF869600A16505 /* Oxwall Messenger-Info.plist */,
+				E9477F0517DF869600A16505 /* OxwallMessenger-Info.plist */,
 				E9477F0617DF869600A16505 /* Oxwall Messenger-Prefix.pch */,
 				E965EFE918052CD3003C5C61 /* AboutViewController.h */,
 				E965EFEA18052CD3003C5C61 /* AboutViewController.m */,
@@ -1099,9 +1099,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C39541816A34F8200C5C8FD /* Oxwall Messenger */ = {
+		9C39541816A34F8200C5C8FD /* OxwallMessenger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C39544016A34F8200C5C8FD /* Build configuration list for PBXNativeTarget "Oxwall Messenger" */;
+			buildConfigurationList = 9C39544016A34F8200C5C8FD /* Build configuration list for PBXNativeTarget "OxwallMessenger" */;
 			buildPhases = (
 				9C39541516A34F8200C5C8FD /* Sources */,
 				9C39541616A34F8200C5C8FD /* Frameworks */,
@@ -1111,7 +1111,7 @@
 			);
 			dependencies = (
 			);
-			name = "Oxwall Messenger";
+			name = OxwallMessenger;
 			productName = JSON_HelloWorld;
 			productReference = 9C39541916A34F8200C5C8FD /* Oxwall Messenger.app */;
 			productType = "com.apple.product-type.application";
@@ -1142,7 +1142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C39541816A34F8200C5C8FD /* Oxwall Messenger */,
+				9C39541816A34F8200C5C8FD /* OxwallMessenger */,
 			);
 		};
 /* End PBXProject section */
@@ -1472,7 +1472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C39544016A34F8200C5C8FD /* Build configuration list for PBXNativeTarget "Oxwall Messenger" */ = {
+		9C39544016A34F8200C5C8FD /* Build configuration list for PBXNativeTarget "OxwallMessenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C39544116A34F8200C5C8FD /* Debug */,
